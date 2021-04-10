@@ -1,0 +1,75 @@
+[class*="col-"] {
+    height: 80px;
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: #2C3E50;
+    padding: 1rem;
+}
+
+.logo, .menu, .image, .title, .star, h3, .form, .social {
+    background-color: white;
+}
+
+.jumbotron {
+    background-color: #1ABC9C;
+    text-align: center;
+}
+.jumbotron .image {
+    height: 300px;
+}
+.jumbotron .title {
+    margin-top: 2rem;
+}
+
+.portfolio {
+    background-color: grey;
+}
+.portfolio .image {
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+.about {
+    background-color: #1ABC9C; 
+}
+.about .text{
+    height: auto;
+    padding-top: 2rem;
+}
+
+.contact {
+    background-color: grey;
+}
+.contact .form {
+    height: auto;
+}
+.contact .button {
+    border-radius: 10px;
+    background-color :#1ABC9C;
+}
+
+.mess {
+    padding-top: 3rem;
+}
+
+footer {
+    background-color: #486581;
+    height: 400px;
+}
+
+footer .icons {
+    background-color: white;
+    height: 50px;
+    margin-bottom: 2rem;
+}
+footer .freelance {
+    padding: 2rem;
+    text-align: center;
+}
+
+.copyright {
+    background-color: #2C3E50;
+}
