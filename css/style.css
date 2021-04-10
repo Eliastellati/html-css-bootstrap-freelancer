@@ -1,5 +1,6 @@
 [class*="col-"] {
     height: 80px;
+    min-height: 50px
     text-align: center;
 }
 
@@ -8,17 +9,14 @@
     padding: 1rem;
 }
 
-.logo, .menu, .image, .title, .star, h3, .form, .social {
+.logo, .menu, .image, .title, .star, h3, .form, .social, .address {
     background-color: white;
 }
 
 .jumbotron {
     background-color: #1ABC9C;
-    text-align: center;
 }
-.jumbotron .image {
-    height: 300px;
-}
+
 .jumbotron .title {
     margin-top: 2rem;
 }
@@ -57,7 +55,6 @@
 
 footer {
     background-color: #486581;
-    height: 400px;
 }
 
 footer .icons {
@@ -65,11 +62,30 @@ footer .icons {
     height: 50px;
     margin-bottom: 2rem;
 }
-footer .freelance {
-    padding: 2rem;
-    text-align: center;
-}
+
 
 .copyright {
     background-color: #2C3E50;
+}
+
+@media screen and (min-width: 768px) {
+    .image {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .text {
+        padding-top: 0;
+    }
+
+    footer {
+        line-height: 100%;
+    }
+
+    .address, .socials, .freelance {
+        margin: 0;
+        padding: 0;
+        height: 100px;
+    }
 }
